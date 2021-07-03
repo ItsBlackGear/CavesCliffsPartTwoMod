@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 //<>
 
 /**
- * @author TelepathicGrunt
+ * source: CaveBiomeAPI
  */
 @Mixin(NoiseChunkGenerator.class)
 public class NoiseChunkGeneratorMixin {

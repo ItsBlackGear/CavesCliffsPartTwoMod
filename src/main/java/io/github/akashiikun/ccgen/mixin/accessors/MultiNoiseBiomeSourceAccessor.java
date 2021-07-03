@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 //<>
 
 /**
- * @author LudoCrypt & BlackGear27
+ * source: CaveBiomeAPI
  */
 @Mixin(MultiNoiseBiomeSource.class)
 public interface MultiNoiseBiomeSourceAccessor {

@@ -18,9 +18,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 //<>
 
 /**
- * @author BlackGear27
+ * source: CaveBiomeAPI
  */
-
 @Mixin(VanillaLayeredBiomeSource.class)
 public class VanillaLayeredBiomeSourceMixin {
     @Shadow @Final private BiomeLayerSampler biomeSampler;

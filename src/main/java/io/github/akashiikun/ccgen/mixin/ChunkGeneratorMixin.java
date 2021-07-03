@@ -24,7 +24,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 //<>
 
 /**
- * Special thanks to TelepathicGrunt that helped to fix not one but almost every issue with this code on it's experimental stage.
+ * source: CaveBiomeAPI
  */
 @Mixin(ChunkGenerator.class)
 class ChunkGeneratorMixin {
