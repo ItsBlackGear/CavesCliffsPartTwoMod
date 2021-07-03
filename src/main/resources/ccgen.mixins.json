@@ -18,7 +18,7 @@
     "MixinDripstoneClusterFeature",
     "MixinNetherForestSurfaceBuilder",
     "MixinSmallDripstoneFeature",
-    "MultiNoiseBiomeSourceAccessor",
+    "accessors.MultiNoiseBiomeSourceAccessor",
     "NewHeightMixin",
     "NoiseChunkGeneratorMixin",
     "PortalRoomMixin",

@@ -1,4 +1,4 @@
-package io.github.akashiikun.ccgen.mixin;
+package io.github.akashiikun.ccgen.mixin.accessors;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.util.registry.Registry;
@@ -14,15 +14,10 @@ import java.util.function.Supplier;
 //<>
 
 /**
- * @author LudoCrypt
+ * @author LudoCrypt & BlackGear27
  */
 @Mixin(MultiNoiseBiomeSource.class)
 public interface MultiNoiseBiomeSourceAccessor {
-    @Invoker("<init>")
-    public static MultiNoiseBiomeSource createMultiNoiseBiomeSource(long seed, List<Pair<Biome.MixedNoisePoint, Supplier<Biome>>> biomePoints, Optional<Pair<Registry<Biome>, MultiNoiseBiomeSource.Preset>> instance) {
-        throw new UnsupportedOperationException();
-    }
-
     @Invoker("<init>")
     public static MultiNoiseBiomeSource createMultiNoiseBiomeSource(long seed, List<Pair<Biome.MixedNoisePoint, Supplier<Biome>>> biomePoints, MultiNoiseBiomeSource.NoiseParameters temperatureNoiseParameters, MultiNoiseBiomeSource.NoiseParameters humidityNoiseParameters, MultiNoiseBiomeSource.NoiseParameters altitudeNoiseParameters, MultiNoiseBiomeSource.NoiseParameters weirdnessNoiseParameters, Optional<Pair<Registry<Biome>, MultiNoiseBiomeSource.Preset>> instance) {
         throw new UnsupportedOperationException();
